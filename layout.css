@@ -1,0 +1,119 @@
+/*
+***** author:wangrao
+**** 常见官网  ****
+**** 2017.2.27 ****
+*/
+@charset"utf-8";
+body{
+	padding:0;
+	margin:0;
+	min-width: 1280px;
+}
+ul{
+	margin:0;
+	padding:0;
+}
+/******clear float*******/
+.clearfix{
+	overflow: auto;
+	_zoom:1;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/*头部*/
+.header{
+	background: #fff;
+	height: 56px;
+}
+.header .logo{
+	margin:0;
+	height: 56px;
+	padding-left: 100px;
+	background: url(images/logo.png) no-repeat 58px 14px;
+	float: left;
+}
+.header .logo a{
+	font-size: 21px;
+	height: 56px;
+	line-height: 56px;
+	font-family: "黑体";
+	font-weight: normal;
+	color: #393939;
+	text-decoration: none;	
+}
+.header ul{
+	list-style-type: none;
+	width: 598px;
+	height: 56px;
+	float: right;
+}
+ .header ul li{
+	display: inline-block;
+	margin:0;
+	padding: 0;
+	height: 56px;
+	line-height: 51px;
+} 
+.header ul li a{
+	display: block;
+	height: 51px;
+	color: #393939;
+	font-size: 14px;
+	font-family: "Microsoft Yahei";
+	text-decoration: none;
+	text-align: center;
+	padding: 0 22px;
+
+}
+.header ul li a.active{
+	color: #E74F4D;
+	border-bottom: 5px solid #E7504D;
+	text-align: center;
+}
+/*登录按钮*/
+.header ul li.end{
+	background: url(images/login.png) no-repeat 10% 45%;
+}
+.header ul li.end a{
+	color: #E74F4D;
+}
+/*banner*/
+.banner{
+	background: lightgreen;
+	height: 692px;
+}
+/*item*/
+.item{
+	height: 251px;
+	background: lightblue;
+}
+/*adv*/
+.adv{
+	height: 362px;
+	background: #EDEDEC;
+}
+.activity{
+	height: 948px;
+	background: lightyellow;
+}
+.new_world{
+	height: 566px;
+	background: green;
+}
+.us{
+	height: 1272px;
+	background: #fff;
+}
+.contact{
+	height: 356px;
+	background: #32363E;
+}
+.footer{
+	height: 58px;
+	background: #303039;
+}
