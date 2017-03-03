@@ -84,13 +84,88 @@ ul{
 }
 /*banner*/
 .banner{
-	background: lightgreen;
-	height: 692px;
+	background: url(images/banner2.png) no-repeat center top;	
+	height: 690px;
+	position: relative;
 }
+.banner_text{
+	width: 461px;
+	height: 270px;
+	font-family: "Microsoft Yahei";
+	position: absolute;
+	top: 230px;
+	left: 114px;
+}
+.banner_text dt{
+	font-size: 60px;
+	height: 72px;
+	line-height: 62px;
+	color:#fff;
+}
+.banner_text dd{
+	font-size: 21px;
+	width: 298px;
+	height: 61px;
+	margin-top: 12px;
+	color: #E7504D;
+	margin-left: 4px;
+}
+.banner_text dd.banner_btn{
+	background: #E7504D;
+	width: 331px;
+	height: 65px;
+	line-height: 65px;
+	margin-left: 8px;
+	text-align: center;
+	position: absolute;
+	left: 0px;
+	bottom:0;
+}
+.banner_btn a{
+	display: inline-block;
+	width: 331px;
+	height: 65px;
+	color:#fff;
+	font-size: 30px;
+	line-height: 38px;
+	text-decoration: none;
+}
+/*banner end*/
+
 /*item*/
 .item{
-	height: 251px;
-	background: lightblue;
+	height: 138px;
+	padding:46px 0 67px 0;
+}
+.item dl{
+	margin:0;
+	width: 25%;
+	height: 139px;
+	background: #fff;
+	text-align: center;
+	float: left;
+}
+.item dl dt{
+	height: 87px;
+	background: url(images/item_icon1.png) no-repeat top center;
+
+}
+.item dl dd{
+	height: 52px;
+	margin:0;
+	padding:0;
+	border-right: 2px solid #989999;
+	font-size: 14px;
+	font-family: "黑体";
+}
+.item dl dd span{
+	display: inline-block;
+	width: 158px;
+	height: 38px;
+	text-align: center;
+}
+.item dl dd.end{
+	border-right:0;
 }
 /*adv*/
 .adv{
