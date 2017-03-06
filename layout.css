@@ -20,9 +20,9 @@ ul{
 }
 .clearfix:after{
 	content: "";
+	clear: both;
 	display: block;
 	height: 0;
-	clear: both;
 	visibility: hidden;
 }
 /*头部*/
@@ -574,6 +574,7 @@ div.activity .activity_item small{
 }
 .become_con{
 	margin:115px 136px 0 136px;
+
 }
 .become_con h4{
 	margin:0 auto;
@@ -601,6 +602,113 @@ div.activity .activity_item small{
 	height: 37px;
 	margin:0 auto;
 	padding-top: 5px;
+}
+.become_con_info{
+	height: 283px;
+	width: 1003px;
+	margin:0 auto;
+	margin-top: 104px;
+	clear: both;
+}
+.become_con_info_l{
+	width: 292px;
+	height: 283px;
+	float: left;
+	overflow: hidden;
+}
+/*志愿者协议*/
+.become_con_info_l h5{
+	margin:0;
+	font-size: 14px;
+	line-height: 120%;
+	font-family: "黑体";
+}
+.become_con_info_l p{
+	font-size: 12px;
+	line-height: 175%;
+	color: #8B8684;
+	width: 292px;
+	height: 57px;
+	margin:0;
+	padding:0;
+	margin-top: 21px;
+	text-align: left;
+	margin-bottom: 33px;
+	position: relative;
+}
+.become_con_info_l p.last{
+	margin-bottom: 12px;
+}
+.become_con_info_l p.last2{
+	height: 17px;
+	margin-top: 12px;
+}
+.become_con_info_l p a{
+	display: block;
+	position: absolute;
+	right: 0;
+	bottom:0;
+	font-style: normal;
+	text-decoration: none;
+	color:#8B8684;
+	height: 17px;
+}
+.become_con_info_l p a:before{
+	content: "";
+	display: inline-block;
+	width: 10px;
+	height: 6px;
+	background: url(images/jt.png) no-repeat center;
+	margin-right: 8px;
+}
+/*志愿者表单申请*/
+.become_con_info_r{
+	width: 711px;
+	height: 283px;
+	float: left;
+}
+.become_con_info_r .form{
+	width: 639px;
+	height: 283px;
+	margin-left: auto;
+}
+.become_con_info_r .form input{
+	border: none;
+	background: #EDEDEF;
+	height: 30px;
+	width: 240px;
+}
+.become_con_info_r .form label{
+	display: inline-block;
+	width: 293px;
+	height: 40px;
+	line-height: 40px;
+	background: #EDEDEF;
+	padding-left: 8px;
+	color: #6A6261;
+	margin-bottom: 12px;
+	font-size: 12px;
+}
+.become_con_info_r .form textarea{
+ 	background: #EDEDEF;
+ 	width: 629px;
+ 	height: 121px;
+ 	padding:0;
+	padding-left: 10px;
+ 	font-size: 12px;
+ 	border:0;
+	margin-bottom: 12px;
+}
+.become_con_info_r .form button{
+	width: 639px;
+	height: 41px;
+	line-height: 120%;
+	text-align: center;
+	border:0;
+	background: #EDEDEF;
+	font-size: 14px;
+	color: #323232;
+	cursor:pointer;
 }
 .contact{
 	height: 356px;
