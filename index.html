@@ -7,7 +7,7 @@
 </head>
 <body>
 	<!-- 头部开始 -->
-	<div class="header clearfix">
+	<div class="header clearfix" id="top">
 		<h1 class="logo"><a href="###">新世界</a></h1>
 		<ul>
 			<li ><a href="###" class="active">首页</a></li>
@@ -50,7 +50,7 @@
 	<div class="adv">
 		<p>关于新世界，你不知道的还有什么？</p>
 	</div>
-
+	<!-- 查找新世界城市活动信息 -->
 	<div class="ser_activity">
 		<div class="search">
 			<div class="search_info">
@@ -59,7 +59,6 @@
 				<div class=""></div>
 			</div>
 			<div class="search_form">
-
 				<form action="###">
 					<div>
 						<select name="country" id="country">
@@ -73,17 +72,20 @@
 						</select>
 					</div>
 					<div>
-						<select name="province" id="province" value="省份">
-							
-							<option value="北京市" >北京市</option>
-							<option value="天津">天津</option>
-							<option value="河北省">河北省</option>
-							<option value="陕西省">陕西省</option>
-							<option value="内蒙自治区">内蒙自治区</option>
-							<option value="辽宁省">辽宁省</option>
-						</select>
+						<div class="sel">
+							<select name="province" id="province" selected="sheng">省份</select>
+						</div>
+						<ul>
+							<li><a href="###">北京市</a></li>
+							<li><a href="###">天津市</a></li>
+							<li><a href="###">海南省</a></li>
+							<li><a href="###">海南省</a></li>
+							<li><a href="###">海南省</a></li>
+							<li><a href="###">海南省</a></li>
+						</ul>
 					</div>
-					<div>
+
+					<div >
 						<select name="city" id="city">
 							<option value="城市">城市</option>
 							<option value="石家庄">石家庄</option>
@@ -95,6 +97,7 @@
 			</div>
 		</div>
 	</div>
+	<!-- 查找新世界城市活动信息 end -->
 	<div class="activity">
 		<div class="activity_item">
 			<div class="pics">
@@ -142,6 +145,7 @@
 			</div>
 		</div>
 	</div>
+	<!-- 关于我们 -->
 	<div class="about">
 		<div class="about_l">
 			<h4>新时代<br />关于爱生活的我们</h4>
@@ -204,8 +208,7 @@
 			</p>
 			<form action="###" >
 				
-					<input type="text" class="contact_text" placeholder="someone@email.com" /><input type="submit" class="contact_btn" value="提 交" />
-			
+					<input type="text" class="contact_text" placeholder="someone@email.com" /><input type="submit" class="contact_btn" value="提 交" />			
 			</form>
 			<p class="share">
 				<a href="###" class="qq">企鹅</a>
@@ -216,8 +219,7 @@
 		</div>
 	</div>
 	<div class="footer">
-		<p>&copy;2017新世界</p>
-	</div>
-	
+		<p>&copy;2017新世界<a href="#top">back to top</a></p>
+	</div>	
 </body>
 </html>
