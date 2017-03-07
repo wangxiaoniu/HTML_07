@@ -345,7 +345,6 @@ div.activity .activity_item small{
 /*文章集*/
 .new_world{
 	height: 566px;
-	background: green;
 }
 .new_pic{
 	width: 66.67%;
@@ -584,6 +583,7 @@ div.activity .activity_item small{
 	font-size: 21px;
 	height: 27px;
 	line-height: 27px;
+	font-family: "黑体";
 }
 .become_con hr{
 	width: 31px;
@@ -609,6 +609,7 @@ div.activity .activity_item small{
 	margin:0 auto;
 	margin-top: 104px;
 	clear: both;
+	font-family: "宋体";
 }
 .become_con_info_l{
 	width: 292px;
@@ -666,6 +667,7 @@ div.activity .activity_item small{
 	width: 711px;
 	height: 283px;
 	float: left;
+
 }
 .become_con_info_r .form{
 	width: 639px;
@@ -676,11 +678,14 @@ div.activity .activity_item small{
 	border: none;
 	background: #EDEDEF;
 	height: 30px;
-	width: 240px;
+	width: 230px;
+}
+.become_con_info_r .form label[for="age"],.become_con_info_r .form label[for="address"]{
+	margin-left: 20px;
 }
 .become_con_info_r .form label{
 	display: inline-block;
-	width: 293px;
+	width: 296px;
 	height: 40px;
 	line-height: 40px;
 	background: #EDEDEF;
@@ -709,10 +714,87 @@ div.activity .activity_item small{
 	font-size: 14px;
 	color: #323232;
 	cursor:pointer;
+	font-family: "黑体";
 }
+/*联系我们*/
 .contact{
-	height: 356px;
+	height: 269px;
 	background: #32363E;
+	padding-top: 87px;
+}
+.contact_info{
+	width: 512px;
+	height: 197px;
+	margin:0 auto;
+	color: #fff;
+}
+.contact_info h3{
+	margin:0;
+	text-align: center;
+	font-size: 21px;
+	font-family: "黑体";
+
+}
+.contact_info p.contactxt{
+	text-align: center;
+	font-size: 12px;
+	font-family: "宋体";
+	padding:0 14px;
+	margin-bottom: 30px;
+	line-height: 150%;
+}
+
+.contact_text{
+	width: 420px;
+	height: 41px;
+	line-height: 41px;
+	font-size: 14px;
+	color: #AAAAA9;
+	border: 0;
+	vertical-align: top;
+	padding-left: 10px;
+}
+.contact_btn{
+	width: 81px;
+	height: 43px;
+	line-height: 41px;
+	background: #6F7278;
+	border: 0;
+	cursor:pointer;
+	font-size: 15px;
+	color:#fff;
+	font-family: "Microsoft Yahei";
+	margin-bottom: 34px;
+}
+.contact_info p.share{
+	width: auto;
+	margin:0;
+	padding-left: 165px;
+}
+.contact_info p.share a{
+	display: block;
+	height: 25px;
+	background: url(images/share.png) no-repeat center;
+	float: left;
+	text-indent: -9999px;
+	margin-right: 20px;
+}
+.contact_info p.share a.qq{
+	width: 24px;
+	height: 25px;
+	background-position: 0 0;
+}
+.contact_info p.share a.sina{
+	width: 29px;
+	background-position: -33px -1px;
+}
+.contact_info p.share a.line{
+	width: 29px;
+	background-position: 0 -74px;
+}
+.contact_info p.share a.net{
+	width: 29px;
+	background-position: -38px -74px;
 }
 /*底部*/
 .footer{
